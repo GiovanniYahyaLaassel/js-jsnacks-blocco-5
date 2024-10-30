@@ -6,3 +6,18 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+
+// Ciclo for 
+for (let i = 0; i < people.length; i++) {
+  console.log(people[i].name);
+}
+
+// Metodo forEach
+
+people.forEach(function(person){
+  console.log(person.name);
+})
+
+// Metodo abbreviato con arrow function
+
+people.forEach(person => console.log(person.name));

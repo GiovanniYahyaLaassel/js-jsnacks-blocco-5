@@ -21,3 +21,14 @@ const students = [
 
 // Recupera i dati dello studente con id 2
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
+
+// Uso il metodo find per trovare lo studente 2
+//  const studentId2 = students.find(function(student){
+//     return student.id === 2;
+//  })
+//  console.log(studentId2);
+
+//  Utilizzo il metodo find con l'arrow function
+
+const studentId2 = students.find(student => student.id === 2);
+console.log(studentId2);

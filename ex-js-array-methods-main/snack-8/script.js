@@ -21,3 +21,18 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+// Uso il metodo find per trovare la classe di Marco
+
+// const marcoClass = students.find(function(student){
+//    return student.name === 'Marco Lanci';
+// }).class;
+
+// console.log(marcoClass);
+
+// Utilizzo l'arrow function
+
+const marcoClass = students.find(student => student.name === 'Marco Lanci').class;
+console.log(marcoClass);
+
+
